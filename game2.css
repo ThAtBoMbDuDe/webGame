@@ -1,0 +1,71 @@
+body {
+  background-image: url("laptop.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 100% 100%;
+  display: grid;
+  grid-template-rows: 1fr 20fr;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 95vh;
+  overflow: hidden;
+}
+
+.body {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+
+  width: 30vw;
+  height: 35vh;
+}
+
+.display {
+  color: white;
+  background-color: rgba(0,0,0,0);
+}
+
+.display:hover {
+  color: red;
+  transform: scale(2,2);
+  cursor: pointer;
+  text-shadow: 2px 2px 2px white;
+}
+
+.title {
+  color: white;
+  background-color: rgba(0,0,0,0);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+}
+
+.gameBorder{
+  background-color: rgba(0,0,0,0);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  height: 20%;
+  width: 45vw;
+  grid-gap: 10px;
+}
+
+.squares {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  font-weight: bold;
+
+}
+
+.squares:hover {
+  transform: scale(1.03,1.03);
+  background-color: whitesmoke;
+}
+
